@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <title>PORTFOLIO</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/img/icon-180x180.png">
+    <link href="./static/img/favicon.ico" rel="icon">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+      <script src="./static/script.js"></script>
+  </head>
+  <body>
+        <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container ">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span > <a class="navbar-brand" href="#"><span class="logo">༺ༀ </span><span class="logo"> MENU  </span><span class="logo"> ༀ༻</span></a> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fas fa-home" aria-current="page" href="/"><span class="logo">HOME</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fas fa-file-certificate " href="/Certificates"><span class="logo">CERTIFICATES</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fas fa-briefcase" href="/Portfolio"><span class="logo">PORTFOLIO</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fas fa-user-tie" href="/about"><span class="logo">ABOUT ME</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fas fa-envelope" href="/Contacts"><span class="logo">CONTACTS</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <div class="section-container">
+    <div class="container indent-top indent-container">
+      <div class="row justify-content-center">
+        <h1 class="h2 text-center item__pad">CONTACTS</h1>
+        <div class="col-md-8 col-md-offset-2">
+          <form action="submit_form" method="post" class="reveal-content">
+          <div class="row indent-top indent-bottom">
+
+            <div class="col-xs-12 col-md-6 ">
+
+                <div class="mb-3">
+                  <input id="email" type="email" class="form-control" id="email" placeholder="Почта">
+                </div>
+                <div class="mb-3">
+                  <input id="subject" type="subject" class="form-control" id="subject" placeholder="Тема">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" class="form-control" rows="5" placeholder="Введите сообщение"></textarea>
+                  </div>
+                            <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-default btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Отправить</button>
+
+                           <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Мы свяжемся с вами в ближайшее время!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Ваше сообщение было успешно отправлено!
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+              <div class="col-xs-12 col-md-6">
+                      <ul class="list-unstyled contact-text">
+                        <li>
+                          <span class="fa-icon ">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                          </span>
+                          + 7 (996) 787-32-68
+                        </li>
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa-at" aria-hidden="true"></i>
+                          </span>
+                          kahramon1795@gmail.com
+                        </li>
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa fa-map-marker" aria-hidden="true"></i>
+                          </span>
+                          г. Санкт-Петербург, Ленсовета 23
+                        </li>
+                      </ul>
+                      <h3>Контакты в социальных сетях</h3>
+
+                <p class="social-media hidden-xs">
+                  <a href="#" class="fab fa-facebook" data-toggle="tooltip" title="Facebook"></a>
+                  <a href="https://twitter.com/Roma68690765" class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></a>
+                  <a href="https://github.com/HADJIBAEV" class="fab fa-github" data-toggle="tooltip" title="Linkedin"></a>
+                  <a href="https://vk.com/id446745376" class="fab fa-vk" data-toggle="tooltip" title="Behance"></a>
+                </p>
+              </div>
+
+
+
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

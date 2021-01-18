@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+    <channel>
+        <title>Хаджибаев Кахрамон</title>
+        <link>https://kahramonapp.herokuapp.com/</link>
+        <description>Канал обо мне</description>
+        <language>ru</language>
+        <item turbo="true">
+            <title>Обо мне</title>
+            <link>https://kahramonapp.herokuapp.com/about</link>
+            <turbo:content>
+              <![CDATA[
+                    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container ">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span > <a class="navbar-brand" href="#"><span class="logo">༺ༀ </span><span class="logo"> MENU  </span><span class="logo"> ༀ༻</span></a> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fas fa-home" aria-current="page" href="/"><span class="logo">HOME</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fas fa-file-certificate " href="/Certificates"><span class="logo">CERTIFICATES</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fas fa-briefcase" href="/Portfolio"><span class="logo">PORTFOLIO</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fas fa-user-tie" href="/about"><span class="logo">ABOUT ME</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fas fa-envelope" href="/Contacts"><span class="logo">CONTACTS</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+<div class="section-container">
+    <div class="container indent-top indent-container">
+      <div class="row justify-content-center">
+        <h1 class="h2 text-center item__pad">ABOUT ME</h1>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <img src="/static/img/avatar.jpg" class="img-responsive" alt="" style="width: 100%; border-radius: 50%; border: 1px solid #cccccc;">
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <h3>PROFILE</h3>
+              <p>
+                  Let me introduce myself. My name is Kahramon. I am responsible, stress-resistant, outgoing and honest.
+                  I have a high performance, I can multitask. I don’t drink and don’t smoke.  From 2013 to 2017, i attended
+                  full-time study at the RTSU Interstate Higher Education Institution, after which i received a bachelor's
+                  degree with honors in the field of applied computer science. I got an interest in programming while studying.
+                  Information technology is evolving every day.
+              </p>
+              <p>
+                  I have been working as a system administrator in a private company for 2 years. My main duties:
+                    Ensuring error-free operation of system software,
+                      Ensuring the operability and security of the company network,
+                      Installing, configuring and updating office and application software,
+                      Providing data backup (as well as data recovery if necessary).
+              </p>
+              <p>
+                  I’m working in the web industry. This job is focused on back-end work and working with languages specific to
+                  the web, like PHP, ASP, Ruby, Python, etc. Medium skill in database/server work, medium skill in JavaScript,
+                  light skill in HTML. This is very different from a Front End Developer as there is less working with the
+                  design and heavier on programming concepts and concerns, like security and structure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+                ]]>
+              </turbo:content>
+                  <pubDate>Tue, 23 Nov 2020 14:15:00 +0300</pubDate>
+      </item>
+    </channel>
+</rss>
